@@ -4,10 +4,9 @@ import os
 
 app = Flask(__name__)
 
-# @app.route('/')
-# def hello():
-#     return "Hello it's Catherine!"
-print('\nHELLO WORLD\n')
+@app.route('/')
+def hello():
+    return "Hello it's Catherine!"
 
 def readCsv():
     filepath = './data/test_good.csv'
