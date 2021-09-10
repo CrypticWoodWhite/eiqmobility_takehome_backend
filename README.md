@@ -14,7 +14,7 @@ A simple Flask-Kubernetes-Docker web application that allows the user to upload 
 
 1. `docker build [OPTIONS] PATH | URL | -`
   - this builds a docker image using instructions found in the Dockerfile and the context. The context consists of the files found at the specified `PATH` or `URL`.
-  - so for this app we're using `docker build -f Dockerfile https://github.com/CrypticWoodWhite/eiqmobility_takehome_backend.git#master .`
+  - so for this app we're using `docker build -f Dockerfile https://github.com/CrypticWoodWhite/eiqmobility_takehome_backend.git#master`
 
 2. `docker push [OPTIONS] NAME[:TAG]`
   - this command pushes a docker image or a repo to a registry such as Docker Hub, same idea as the `git push` command
