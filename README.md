@@ -10,6 +10,9 @@ A simple Flask-Kubernetes-Docker web application that allows the user to upload 
 * Check whether the .CSV file has exactly 10 rows and 3 columns.
 * Checks whether the data is present in each cell (.CSV file is "complete"). A "complete" sample test.csv is available in this repository for testing purposes.
 
+## Links
+- [DockerHub](https://hub.docker.com/r/crypticwoodwhite/eiqmobility_takehome_backend)
+- [Github](https://github.com/CrypticWoodWhite/eiqmobility_takehome_backend)
 ## Commands
 
 1. `docker build [OPTIONS] PATH | URL | -`
@@ -18,3 +21,5 @@ A simple Flask-Kubernetes-Docker web application that allows the user to upload 
 
 2. `docker push [OPTIONS] NAME[:TAG]`
   - this command pushes a docker image or a repo to a registry such as Docker Hub, same idea as the `git push` command
+  - before using the `push` command, we have to commit the image and tag it appropriately.
+  - here we're using `docker push crypticwoodwhite/eiqmobility_takehome_backend:initial`
